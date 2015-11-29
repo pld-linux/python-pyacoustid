@@ -13,7 +13,7 @@ URL:		http://www.acoustid.org/chromaprint/
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
 # if py_postclean is used
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	libchromaprint >= 0.7
 Requires:	python-modules
 Provides:	python-chromaprint = %{version}
